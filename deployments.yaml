@@ -18,7 +18,6 @@ spec:
     spec:
       containers:
       - name: app-inference-deployment
-        image: dalbamm/240109-app-inference
         resources:
           limits:
             memory: "1Gi"
@@ -27,3 +26,4 @@ spec:
         ports:
         - containerPort: 8000deployments.yaml
 
+        image: dalbamm/240109-app-inference:723ce7f
