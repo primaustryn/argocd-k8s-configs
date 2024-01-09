@@ -26,4 +26,4 @@ spec:
         ports:
         - containerPort: 8000
 
-        image: dalbamm/240109-app-inference:40e0218
+        image: dalbamm/240109-app-inference:f35b0b3
