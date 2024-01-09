@@ -24,6 +24,6 @@ spec:
             cpu: "2000m"
 
         ports:
-        - containerPort: 8000deployments.yaml
+        - containerPort: 8000
 
         image: dalbamm/240109-app-inference:723ce7f
